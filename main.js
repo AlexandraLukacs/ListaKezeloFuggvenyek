@@ -44,3 +44,11 @@ emberekLISTA.sort(function(e1,e2){
 })
 
 console.log(emberekLISTA)
+
+/* véletlen sorrnedű rendezés. kor szerint keverés */
+emberekLISTA.sort(function(e1,e2){
+    /* VÉletlen számot generálok -0,5 és - 0,5 között */
+    return Math.random()-0,5;
+})
+
+console.log(emberekLISTA)
